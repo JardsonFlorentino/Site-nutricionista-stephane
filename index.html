@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nutricionista Stephane: Consultas online e presenciais em Maragogi, Barreiros e São José da Coroa Grande. Alcance seus objetivos de emagrecimento, hipertrofia e bem-estar com dietas personalizadas.">
+    <meta name="keywords"
+        content="nutricionista, dieta, emagrecimento, hipertrofia, nutrição clínica, consultoria online">
+    <meta name="author" content="Nutricionista Stephane">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome (apenas uma versão) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./assets/logo01.jpg" type="image/jpeg">
+
+    <script src="./script.js" defer></script>
+
+    <title>Nutricionista Stephane</title>
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader" role="dialog" aria-label="Carregando página">
+        <img src="./assets/logo03.png" alt="Logo Nutricionista Stephane" class="preloader-logo">
+        <p class="preloader-text">Nutrição personalizada para quem quer resultado sem perder o prazer em comer.</p>
+        <div class="loading-bar-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="loading-bar"></div>
+        </div>
+        <p id="preloader-percentage" aria-live="polite">0%</p>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container-header-wrapper">
+            <a href="#inicio" class="logo-link" aria-label="Voltar ao início">
+                <img src="./assets/logo03.png" alt="Logo Nutricionista Stephane" class="logo">
+            </a>
+
+            <nav class="main-nav" aria-label="Menu principal">
+                <button id="hamburger-btn" aria-label="Abrir menu de navegação" aria-expanded="false"
+                    aria-controls="nav-menu">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <div id="nav-menu" class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <a href="#contato" class="btn-primary">Agende sua consulta</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="inicio" class="hero-container" aria-labelledby="hero-heading">
+            <div class="hero-content scroll-reveal from-left">
+                <h1 id="hero-heading">
+                    Faço a dieta prática, que se encaixa na sua rotina e alcance seus objetivos de
+                    forma saudável e sustentável sem depender de um papel.
+                </h1>
+
+                <button class="btn-primary" id="learn-more" data-whats-action="info-geral">
+                    Saiba mais
+                </button>
+
+                <p class="hero-subtext">
+                    <strong>ATENDO VOCÊ DE ONDE ESTIVER! Consultas online para qualquer lugar do
+                        mundo e presenciais nas cidades de Maragogi-AL, São José da Coroa Grande-PE e
+                        Barreiros-PE.</strong>
+                </p>
+            </div>
+
+            <div class="hero-image scroll-reveal from-right">
+                <img src="./assets/Foto Ster01.jpg" alt="Foto Nutricionista Stephane" border="0">
+            </div>
+        </section>
+
+        <!-- MOTIVAÇÃO / DOR -->
+        <section id="motivacao" class="pain-points-container">
+            <h2 class="scroll-reveal from-bottom">Se você não aguenta mais…</h2>
+
+            <div class="pain-points-grid">
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/ZpGf3qsF/icon-diet.png" alt="icon-diet" border="0">
+                    <p>Começar dietas e desistir no meio do caminho.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/fVnmBMhS/icon-time.png" alt="icon-time" border="0">
+                    <p>Se sentir perdida na rotina e sem tempo para cuidar de você.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/HDVLjYtL/icon-anxiety.png" alt="icon-anxiety" border="0">
+                    <p>Usar a comida para aliviar ansiedade e frustrações.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/2YfQhRRB/icon-mirror.png" alt="icon-mirror" border="0">
+                    <p>Olhar no espelho e não gostar do que vê.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/S9stDwD/icon-chart.png" alt="icon-chart" border="0">
+                    <p>Testar mil métodos sem ver resultados reais.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/7Jx4s0TL/icon-energy.png" alt="icon-energy" border="0">
+                    <p>Sentir falta de energia e disposição no dia a dia.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/6JXy72FD/icon-clothes.png" alt="icon-clothes" border="0">
+                    <p>Não conseguir usar as roupas que você ama.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/Zz7sbd2k/icon-restrict.png" alt="icon-restrict" border="0">
+                    <p>Seguir dietas restritivas que não se encaixam na sua vida.</p>
+                </article>
+
+                <article class="pain-point-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/MkP8Td8C/icon-treino.png" alt="icon-treino" border="0">
+                    <p>Não ter energia e performance por falta de nutrição adequada.</p>
+                </article>
+            </div>
+
+            <div class="pain-points-button scroll-reveal from-bottom">
+                <a href="#contato" data-whats-action="geral" class="btn-secondary">
+                    Eu posso te ajudar a mudar essa história!
+                </a>
+            </div>
+
+            <div class="pain-points-img scroll-reveal from-bottom">
+                <img src="https://i.ibb.co/QtPZqcx/infoma-o-do-atendimento.png" alt="Informações sobre o atendimento"
+                    border="0">
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="about-container">
+            <h2 class="scroll-reveal from-bottom">Sobre</h2>
+
+            <div class="about-section">
+                <div class="about-text scroll-reveal from-left">
+                    <p>
+                        Oiii, eu sou Stephane, nutricionista, e ajudo você a construir uma alimentação que faça sentido
+                        para a sua rotina e para a sua vida de verdade.
+                        Aqui não tem regras malucas nem dietas prontas, o foco é em você, nos seus hábitos, na sua
+                        história e no que é possível no seu dia a dia.
+                        Meu objetivo é tornar a alimentação mais simples, leve e prazerosa, para que você cuide da saúde
+                        sem culpa e com mais autonomia nas suas escolhas.
+                    </p>
+                </div>
+
+                <div class="about-image scroll-reveal from-right">
+                    <img src="./assets/Foto Ster04.jpg" alt="Nutricionista Stephane em seu consultório" loading="lazy">
+                </div>
+            </div>
+
+            <div class="about-section-secondary">
+                <div class="about-image-secondary scroll-reveal from-left">
+                    <img src="./assets/Foto Ster03.jpg" alt="Nutricionista Stephane em seu consultório" loading="lazy">
+                </div>
+
+                <div class="about-text-secondary scroll-reveal from-bottom">
+                    <p>
+                        Tenho especialização em Nutrição Clínica, Esportiva, Saúde da Mulher e Interpretação de Exames
+                        Laboratoriais, e desde 2021 já acompanhei mais de 1.700 pessoas em diferentes fases e objetivos.
+                        A partir da sua rotina, das suas necessidades e da sua realidade, vamos construir um plano
+                        nutricional possível, que te ajude a se sentir bem no dia a dia e a manter resultados a longo
+                        prazo.
+                    </p>
+
+                    <br>
+
+                    <a href="#contato" data-whats-action="geral">Vamos começar?</a>
+
+                    <br><br>
+
+                    <p>CRN-6: 36452.</p>
+                </div>
+
+                <div class="about-image-secondary scroll-reveal from-right">
+                    <img src="./assets/Foto Ster02.jpg" alt="Nutricionista Stephane na academia" loading="lazy">
+                </div>
+            </div>
+
+            <div class="about-banner scroll-reveal from-bottom">
+                <img src="https://i.ibb.co/p6TvhdzQ/quem-sou-eu-ster.png" alt="Quem sou eu - Nutricionista Stephane"
+                    border="0">
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="services-container">
+            <h2 class="scroll-reveal from-bottom">Posso te ajudar...</h2>
+
+            <div class="services-grid">
+                <article class="service-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/jNrsJxG/hipertrofia.png" alt="hipertrofia" border="0">
+                    <h3>Hipertrofia</h3>
+                    <ul>
+                        <li>Estratégias para ganho de massa muscular</li>
+                        <li>Ajustes nutricionais para diferentes biotipos</li>
+                        <li>Relação entre treino, nutrição e recuperação</li>
+                        <li>Suplementos específicos para hipertrofia</li>
+                    </ul>
+                    <button type="button" class="btn-service" data-whats-action="hipertrofia">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/MkVw4chp/Saude-da-Mulher.png" alt="Saude-da-Mulher" border="0">
+                    <h3>Saúde da Mulher</h3>
+                    <ul>
+                        <li>SOP (Síndrome dos Ovários Policísticos)</li>
+                        <li>Endometriose</li>
+                        <li>Adenomiose</li>
+                        <li>TPM e saúde hormonal</li>
+                        <li>Menopausa</li>
+                        <li>Câncer de mama (nutrição na prevenção e tratamento)</li>
+                        <li>Fotoenvelhecimento</li>
+                        <li>Cabelo e unhas</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="saude-mulher">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/JjWfywhF/Nutri-o-Cl-nica.jpg" alt="Nutri-o-Cl-nica" border="0">
+                    <h3>Nutrição Clínica</h3>
+                    <ul>
+                        <li>Diabetes</li>
+                        <li>Hipertensão</li>
+                        <li>Hipotireoidismo</li>
+                        <li>Esteatose hepática</li>
+                        <li>Cirurgia bariátrica (pré e pós-operatório)</li>
+                        <li>Doenças autoimunes</li>
+                        <li>Doença renal</li>
+                        <li>Síndrome do intestino irritável</li>
+                        <li>Alergias alimentares</li>
+                        <li>Gastrite e refluxo</li>
+                        <li>Disbiose intestinal</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="nutricao-clinica">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/C34mjT3N/reeduca-o-alimentar.png" alt="reeduca-o-alimentar" border="0">
+                    <h3>Reeducação Alimentar</h3>
+                    <ul>
+                        <li>Rotulagem nutricional (como interpretar tabelas e ingredientes)</li>
+                        <li>Boas escolhas no mercado e restaurantes</li>
+                        <li>Montagem de pratos equilibrados (proporção de macro e micronutrientes)</li>
+                        <li>Organização de compras e cardápios semanais</li>
+                        <li>Redução de ultraprocessados sem radicalismos</li>
+                        <li>Autonomia alimentar: desenvolver confiança para escolher e comer bem em qualquer contexto
+                        </li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="reeducacao-alimentar">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/0p90yVtD/Emagrecimento.png" alt="Emagrecimento" border="0">
+                    <h3>Emagrecimento sem Sofrimento</h3>
+                    <ul>
+                        <li>Estratégias individualizadas para cada paciente</li>
+                        <li>Reeducação alimentar sem dietas radicais</li>
+                        <li>Manejo da fome e da saciedade</li>
+                        <li>Nutrição para acelerar o metabolismo</li>
+                        <li>Orientações para manter o resultado no longo prazo</li>
+                        <li>Foco no prazer em comer bem e viver melhor</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="emagrecimento">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/jZP89czF/Nutri-o-esportiva.png" alt="Nutri-o-esportiva" border="0">
+                    <h3>Nutrição Esportiva</h3>
+                    <ul>
+                        <li>Suplementação (whey, creatina, palatinose etc.)</li>
+                        <li>Imunomodulação no esporte</li>
+                        <li>Sono e recuperação muscular</li>
+                        <li>Performance no atleta e desportista</li>
+                        <li>Estratégias nutricionais para treinos e competições</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="nutricao-esportiva">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/dw6mKxt0/Nutri-o-Comportamental.png" alt="Nutri-o-Comportamental"
+                        border="0">
+                    <h3>Nutrição Comportamental</h3>
+                    <ul>
+                        <li>Prevenção de recaídas na dieta</li>
+                        <li>Relação entre alimentação e emoções</li>
+                        <li>Depressão e comportamento alimentar</li>
+                        <li>Ansiedade e compulsão alimentar</li>
+                        <li>Mindful eating (alimentação consciente)</li>
+                        <li>Autocontrole e estratégias práticas no dia a dia</li>
+                        <li>Reeducação alimentar sustentável</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="nutricao-comportamental">
+                        Saiba mais
+                    </button>
+                </article>
+
+                <article class="servico-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/rRLqhS3D/consulta-online.png" alt="consulta-online" border="0">
+                    <h3>Consultoria Online</h3>
+                    <ul>
+                        <li>Atendimento personalizado em qualquer lugar</li>
+                        <li>Praticidade e comodidade no acompanhamento</li>
+                        <li>Flexibilidade de horários</li>
+                        <li>Acompanhamento contínuo via WhatsApp/e-mail</li>
+                        <li>Mesma qualidade da consulta presencial</li>
+                    </ul>
+                    <button type="button" class="btn-servico" data-whats-action="consultoria-online">
+                        Saiba mais
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section class="testimonials-container">
+            <h2 class="scroll-reveal from-bottom">Depoimentos</h2>
+
+            <div class="testimonials__grid">
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="" alt="Depoimento 1" border="0">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/h11cbsBQ/depoimento2.jpg" alt="Depoimento 2" border="0">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/8Fz9t8q/depoimento3.jpg" alt="Depoimento 3" border="0">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/TxPBwQK4/depoimento4.jpg" alt="Depoimento 4" border="0">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/Pz48PbGz/depoimento5.jpg" alt="Depoimento 5" border="0">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="assets/depoimento6.jpg" alt="Cliente saudável e feliz">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="assets/depoimento7.jpg" alt="Cliente feliz com resultados">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="assets/depoimento8.jpg" alt="Cliente online satisfeito">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="assets/depoimento9.jpg" alt="Cliente feliz com resultados">
+                </blockquote>
+
+                <blockquote class="testimonial-card scroll-reveal from-bottom">
+                    <img src="assets/depoimento10.jpg" alt="Cliente online satisfeito">
+                </blockquote>
+            </div>
+
+            <div class="testimonials-arrows">
+                <button type="button" class="testimonials-arrow prev" aria-label="Ver depoimento anterior">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+
+                <button type="button" class="testimonials-arrow next" aria-label="Ver próximo depoimento">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- RECEITAS -->
+        <section class="recipes-container">
+            <h2 class="scroll-reveal from-bottom">Receitas simples para comer bem sem complicação</h2>
+            <p class="scroll-reveal from-bottom" id="container-p">Pacientes têm acesso a muitas outras, feitas sob
+                medida para
+                cada objetivo</p>
+            <div class="recipes-grid">
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/kVfqGqSj/Salada-Com-Molho-De-Queijo.jpg" alt="Salada com molho de queijo"
+                        border="0">
+                    <h3>Salada com molho de queijo</h3>
+                    <p>Uma salada fresca e crocante com um molho cremoso de queijo, equilibrando sabor e leveza.</p>
+                    <button type="button" class="btn-recipe" data-receita="salada-colorida">
+                        Ver receita
+                    </button>
+                </article>
+
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/XfSZK3hw/Crepioca-Com-Recheio-De-Frango-Desfiado.jpg"
+                        alt="Crepioca com recheio de frango desfiado" border="0">
+                    <h3>Crepioca com recheio de frango desfiado</h3>
+                    <p>Uma opção prática e proteica para matar a fome com leveza ao longo do dia.</p>
+                    <button type="button" class="btn-recipe" data-receita="crepioca-frango-desfiado">
+                        Ver receita
+                    </button>
+                </article>
+
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/SLqJzNK/Quinoa-Com-Camar-o.jpg" alt="Quinoa com camarão" border="0">
+                    <h3>Quinoa com camarão</h3>
+                    <p>Uma refeição completa e sofisticada, unindo grãos integrais e proteína magra em um só prato.</p>
+                    <button type="button" class="btn-recipe" data-receita="quinoa-camarao">
+                        Ver receita
+                    </button>
+                </article>
+
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/jPbYPK3T/Suco-Verde-De-Mel-o-Com-Couve.jpg"
+                        alt="Suco verde de melão com couve" border="0">
+                    <h3>Suco verde de melão com couve</h3>
+                    <p>Um suco refrescante e detox para começar o dia com energia.</p>
+                    <button type="button" class="btn-recipe" data-receita="suco-verde-melao-couve">
+                        Ver receita
+                    </button>
+                </article>
+
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/pmQsvsY/Pudim-Proteico-De-Whey.jpg" alt="Pudim proteico de whey"
+                        border="0">
+                    <h3>Pudim proteico de whey</h3>
+                    <p>Um doce proteico e funcional, ideal para matar a vontade de chocolate sem sair da rotina
+                        saudável.</p>
+                    <button type="button" class="btn-recipe" data-receita="pudim-whey">
+                        Ver receita
+                    </button>
+                </article>
+
+                <article class="recipe-card scroll-reveal from-bottom">
+                    <img src="https://i.ibb.co/xSh4CkTJ/Frozen-Iogurte-De-Frutas-Vermelhas.jpg"
+                        alt="Frozen iogurte de frutas vermelhas" border="0">
+                    <h3>Frozen iogurte de frutas vermelhas</h3>
+                    <p>Uma sobremesa cremosa e gelada, perfeita para adoçar o dia com mais leveza.</p>
+                    <button type="button" class="btn-recipe" data-receita="frozen-iogurte-frutas-vermelhas">
+                        Ver receita
+                    </button>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contact-container">
+            <h2 class="scroll-reveal from-bottom">Agende sua consulta</h2>
+
+            <form id="contact-form" novalidate>
+                <div class="input-group">
+                    <label for="input-name" class="sr-only">Nome completo</label>
+                    <input type="text" id="input-name" name="name" required placeholder="Nome Completo"
+                        aria-describedby="name-error">
+                    <span id="name-error" class="error-message" role="alert"></span>
+                </div>
+
+                <div class="input-group">
+                    <label for="input-email" class="sr-only">Email</label>
+                    <input type="email" id="input-email" name="email" required placeholder="Seu E-mail"
+                        aria-describedby="email-error">
+                    <span id="email-error" class="error-message" role="alert"></span>
+                </div>
+
+                <div class="input-group">
+                    <label for="input-phone" class="sr-only">Telefone</label>
+                    <input type="tel" id="input-phone" name="phone" required placeholder="Seu Telefone (xx) xxxxx-xxxx"
+                        aria-describedby="phone-error">
+                    <span id="phone-error" class="error-message" role="alert"></span>
+                </div>
+
+                <div class="input-group">
+                    <label for="input-goal" class="sr-only">Objetivo principal</label>
+                    <select id="input-goal" name="goal" required aria-describedby="goal-error">
+                        <option value="">Selecione seu objetivo</option>
+                        <option value="emagrecimento">Emagrecimento saudável</option>
+                        <option value="hipertrofia">Hipertrofia</option>
+                        <option value="saude-mulher">Saúde da mulher</option>
+                        <option value="nutricao-clinica">Nutrição clínica</option>
+                        <option value="reeducacao-alimentar">Reeducação alimentar</option>
+                        <option value="nutricao-esportiva">Nutrição esportiva</option>
+                        <option value="nutricao-comportamental">Nutrição comportamental</option>
+
+                    </select>
+                    <span id="goal-error" class="error-message" role="alert"></span>
+                </div>
+
+
+                <button type="submit" id="submit-btn" aria-describedby="form-status">
+                    <span class="btn-text">Enviar</span>
+                    <span class="btn-loader" style="display: none;" aria-hidden="true">
+                        <i class="fa-solid fa-spinner fa-spin"></i>
+                    </span>
+                </button>
+
+                <div id="form-status" aria-live="polite" class="form-status"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-logo-section">
+                <a href="#inicio" aria-label="Voltar ao topo">
+                    <img src="./assets/logo01.jpg" alt="Logo Nutricionista Stephane" class="footer-logo">
+                </a>
+
+                <div class="social-links" aria-label="Redes sociais">
+                    <a href="#" data-whats-action="geral" aria-label="Falar no WhatsApp">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/stephanelima.nutri" target="_blank" rel="noopener noreferrer"
+                        aria-label="Seguir no Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <h3>Contato</h3>
+                <address>
+                    <p>
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        Telefone:
+                        <a href="tel:+5582993368039">(82) 9.9336-8039</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        Email:
+                        <a href="mailto:stephanelima.nutri@gmail.com">
+                            stephanelima.nutri@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-map-marker-alt" aria-hidden="true"></i>
+                        Atendimento: Maragogi-AL, São José da
+                        Coroa Grande-PE e Barreiros-PE
+                    </p>
+                </address>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <nav aria-label="Links do rodapé">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nutricionista Stephane. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WIDGET WHATSAPP -->
+    <div class="whatsapp-widget">
+        <div class="whatsapp-text">Posso te ajudar?</div>
+        <a href="#" class="whatsapp-button" data-whats-action="geral" aria-label="Falar no WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>
+</body>
+
+</html>
