@@ -78,14 +78,6 @@ a {
   color: inherit;
 }
 
-a,
-h1,
-h2,
-h3,
-h4,
-.logo-text {
-  font-family: 'Brusher', cursive;
-}
 
 /* PRELOADER */
 #preloader {
@@ -1455,15 +1447,6 @@ h4,
   justify-content: center; 
   gap: 15px;
   margin-left: 0;          
-}
-
-a,
-h1,
-h2,
-h3,
-h4,
-.logo-text {
-  font-family: 'Brusher', cursive !important;
 }
 
 }
