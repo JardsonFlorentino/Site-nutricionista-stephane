@@ -6,7 +6,7 @@ Landing page profissional para apresentação da Nutricionista **Stephane Lima**
 
 ## 🌐 Acesso
 
-- **Site online:** https://[seu-usuario.github.io/nutricionista-stephane](https://jardsonflorentino.github.io/Site-nutricionista-stephane/)  
+- **Site online:** https://jardsonflorentino.github.io/Site-nutricionista-stephane/ 
 - **Repositório:** https://https://github.com/JardsonFlorentino/Site-nutricionista-stephane  
 
 
