@@ -89,9 +89,9 @@ h4,
 
 /* PRELOADER */
 #preloader {
-  display: none; /* controlado pelo JS */
+  display: none; 
   position: fixed;
-  inset: 0; /* top/left/right/bottom: 0 */
+  inset: 0; 
   width: 100%;
   height: 100%;
   background:
@@ -110,7 +110,7 @@ h4,
   transition: opacity 0.75s ease, visibility 0.75s ease;
 }
 
-/* overlay extra bem claro por cima da imagem de fundo */
+
 #preloader::before {
   content: "";
   position: absolute;
@@ -119,16 +119,16 @@ h4,
   pointer-events: none;
 }
 
-/* estado quando o JS quiser esconder com classe (opcional) */
+
 #preloader.hidden {
   opacity: 0;
   visibility: hidden;
 }
 
 .preloader-logo {
-  width: 40vw;          /* responsivo */
-  max-width: 460px;     /* limite em desktop */
-  min-width: 140px;     /* não fica minúsculo no mobile */
+  width: 40vw;          
+  max-width: 460px;     
+  min-width: 140px;     
   margin-bottom: 100px;
   animation: fadeInPulse 3s ease-in-out infinite;
   position: relative;
@@ -155,7 +155,7 @@ h4,
   font-family: "Times New Roman", serif;
   font-weight: bold;
   margin-bottom: 60px;
-  color: #876d55; /* var(--text-primary) */
+  color: #876d55; 
   opacity: 0;
   text-align: center;
   max-width: 520px;
@@ -181,7 +181,7 @@ h4,
   width: 260px;
   max-width: 80vw;
   height: 10px;
-  background: rgba(135, 109, 85, 0.5); /* base clarinha */
+  background: rgba(135, 109, 85, 0.5); 
   border-radius: 999px;
   overflow: hidden;
   margin-bottom: 6px;
@@ -192,16 +192,16 @@ h4,
 
 .loading-bar {
   height: 100%;
-  width: 0; /* o JS atualiza de 0 a 100% */
-  background: linear-gradient(90deg, #2596be, #50ddd5); /* primary -> secondary */
+  width: 0;
+  background: linear-gradient(90deg, #2596be, #50ddd5); 
   border-radius: 999px;
-  transition: width 0.15s linear; /* suave, sem keyframe de width */
+  transition: width 0.15s linear; 
 }
 
 #preloader-percentage {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #876d55; /* azul primário */
+  color: #876d55;
   margin-top: 4px;
   position: relative;
   z-index: 1;
@@ -791,12 +791,12 @@ h4,
 
 /* Esconder scrollbar no Chrome / Edge / Safari */
 .testimonials__grid::-webkit-scrollbar {
-  height: 0;                   /* some a barra horizontal */
+  height: 0;                   
 }
 
 /* Firefox */
 .testimonials__grid {
-  scrollbar-width: none;       /* esconde a barra */
+  scrollbar-width: none;       
 }
 
 .testimonials-container {
@@ -812,10 +812,10 @@ h4,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;           /* espaço das bordas */
+  padding: 0 16px;           
 
   transform: translateY(-50%);
-  pointer-events: none;      /* não bloqueia o drag/scroll da faixa */
+  pointer-events: none;     
 }
 
 .testimonials-arrow {
@@ -1437,4 +1437,23 @@ h4,
   .testimonials-arrows {
     display: none;
   }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centraliza horizontalmente */
+  text-align: center;
+
+  }
+
+  .social-links {
+  display: flex;
+  justify-content: center; /* centraliza os ícones na linha */
+  gap: 15px;
+  margin-left: 0;          /* remover aquele deslocamento para a esquerda */
+}
 }

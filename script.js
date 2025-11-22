@@ -1,8 +1,4 @@
-// script.js
 
-// ===========================
-// CONFIGURAÇÕES GERAIS
-// ===========================
 
 // Número de WhatsApp em formato internacional (sem +, parênteses ou traços)
 const WHATSAPP_NUMBER = '5582993368039';
@@ -63,7 +59,7 @@ function initPreloader() {
 
   if (!preloader || !loadingBar || !percentageText || !progressContainer) return;
 
-  const DURATION = 4000; // 4 segundos em ms
+  const DURATION = 4000; 
   let startTime = null;
   let loadComplete = false;
 
@@ -216,7 +212,7 @@ function initContactForm() {
   const nameInput = document.getElementById('input-name');
   const emailInput = document.getElementById('input-email');
   const phoneInput = document.getElementById('input-phone');
-  const goalSelect = document.getElementById('input-goal'); // novo campo de objetivo (HTML precisa ter)
+  const goalSelect = document.getElementById('input-goal'); 
   const nameError = document.getElementById('name-error');
   const emailError = document.getElementById('email-error');
   const phoneError = document.getElementById('phone-error');
@@ -364,7 +360,7 @@ function initTestimonialsAutoScroll() {
   const cardWidth = firstCard.offsetWidth || 280;
   const gap = 20;
   const scrollAmount = cardWidth + gap;
-  const intervalMs = 4000; // 4s entre slides
+  const intervalMs = 4000; 
 
   let autoScrollId = null;
 
