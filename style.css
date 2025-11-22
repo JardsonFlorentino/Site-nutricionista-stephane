@@ -1445,15 +1445,25 @@ h4,
   .footer-logo-section {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* centraliza horizontalmente */
+  align-items: center; 
   text-align: center;
 
   }
 
   .social-links {
   display: flex;
-  justify-content: center; /* centraliza os ícones na linha */
+  justify-content: center; 
   gap: 15px;
-  margin-left: 0;          /* remover aquele deslocamento para a esquerda */
+  margin-left: 0;          
 }
+
+a,
+h1,
+h2,
+h3,
+h4,
+.logo-text {
+  font-family: 'Brusher', cursive !important;
+}
+
 }
