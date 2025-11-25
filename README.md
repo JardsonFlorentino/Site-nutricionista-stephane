@@ -2,6 +2,9 @@
 
 Landing page profissional para apresentação da Nutricionista **Stephane Lima**, com foco em atendimento humanizado, educação alimentar e agendamento de consultas via WhatsApp.
 
+<img width="1472" height="704" alt="nutricionista" src="https://github.com/user-attachments/assets/da9bb6a9-c5d8-4204-a646-c5d78d64a8f1" />
+
+
 ---
 
 ## 🌐 Acesso
